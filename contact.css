@@ -1,0 +1,124 @@
+
+* {
+  
+  Margin: 20;
+  Padding: 20;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+  background-color: #000000;
+}
+
+A {
+  Text-Decoration: None;
+}
+
+.Hero {
+  Width: 90%;
+  Height: 30vh;
+  Background: Url(Img/Bg.Png);
+  background-size: cover;
+  
+}
+
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+  
+}
+.Logo {
+  Max-Height: 60px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+
+  
+}
+Nav Ul Li A {
+  Color: white;
+  Position: Relative;
+  Padding: 5px 0;
+  Display: Inline-Block;
+  
+}
+Nav Ul Li A:hover {
+  Color: #Fd4766;
+  
+}
+
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #Fd4766;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #Fd4766; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin: 20px auto;
+    resize: vertical; 
+    color: white;
+   
+  }
+
+  
+  #textarea{
+    color: white;
+  }
+
+
+  
+  input[type=submit] {
+    background-color: #Fd4766;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #f9768c;
+  }
+  
+  
+  .container {
+    margin-right: 400px;
+    margin-top: auto;
+    margin-left: 400px;
+    margin-bottom: 400px;
+    Padding: 10;
+    border-radius: 25px;
+    
+    padding: 30px;
+  }
+
+  #fname{
+    color: white;
+  }
+
+ 

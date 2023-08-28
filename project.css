@@ -1,0 +1,120 @@
+* {
+    Margin: 20;
+    Padding: 20;
+    Box-Sizing: Border-Box;
+    Font-Family: "Poppins", Sans-Serif;
+    background-color: #0a0a0a;
+  }
+  A {
+    Text-Decoration: None;
+  }
+  
+  .Hero {
+    Width: 90%;
+    Height: 30vh;
+    Background: Url(Img/Bg.Png);
+    Background-Size: Cover;
+  }
+  
+  Nav {
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Space-Between;
+    Padding: 30px 100px;
+    
+  }
+  .Logo {
+    Max-Height: 60px;
+  }
+  Nav Ul Li {
+    List-Style: None;
+    Display: Inline-Block;
+    Padding: 10px 20px;
+  
+    
+  }
+  Nav Ul Li A {
+    Color: white;
+    Position: Relative;
+    Padding: 5px 0;
+    Display: Inline-Block;
+    
+  }
+  Nav Ul Li A:hover {
+    Color: #Fd4766;
+  }
+  Nav Ul Li A:after {
+    Content: "";
+    Position: Absolute;
+    Left: 0;
+    Width: 0;
+    Height: 3px;
+    Background: #Fd4766;
+    Transition: 0.3s;
+    Bottom: 0;
+  }
+  Nav Ul Li A:hover:after {
+    Width: 100%;
+  }
+  
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  
+  
+  h1,p{
+    color: white;
+    margin-left: 300px;
+    padding-top: 5%;
+  }
+
+  p{
+    padding-top: 0%;
+  }
+
+  H1{
+    color: #Fd4766;
+    text-align: justify;
+    margin-top: 5px;
+  }
+
+  h2{
+    color: white;
+    margin-left: 300px;
+    padding-top: 5%;
+  }
+
+  h2 :hover{
+    Color: #Fd4766;
+  }
+
+  h2:after {
+    Content: "";
+    Position: Absolute;
+    Left: 0;
+    Width: 0;
+    Height: 3px;
+    Background: #Fd4766;
+    Transition: 0.3s;
+    Bottom: 0;
+  }
+  
+
+  .moto{
+    border-radius: 10px;
+    margin-left: 550px;
+    Padding: 20px;
+  }
+
+
+  video{
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+    Padding: 20px;
+  }
+
+  
